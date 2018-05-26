@@ -1,0 +1,29 @@
+{
+  "classes": [
+    {
+      "id": 1,
+      "className": "12 - A",
+      "classTeacher": "Teacher 1"
+    },
+    {
+      "id": 2,
+      "className": "12 - B",
+      "classTeacher": "Teacher 2"
+    },
+    {
+      "id": 3,
+      "className": "12 - C",
+      "classTeacher": "Teacher 3"
+    },
+    {
+      "id": 4,
+      "className": "12 - D",
+      "classTeacher": "Teacher 4"
+    },
+    {
+      "id": 5,
+      "className": "12 - E",
+      "classTeacher": "Teacher 5"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+<mat-toolbar color="primary">
+  SCHOOL MANAGEMENT SYSTEM
+  <span class="spacer"></span>
+  <button mat-button [matMenuTriggerFor]="menu">
+    <mat-icon>menu</mat-icon> Menu
+  </button>
+</mat-toolbar>
+
+<mat-menu #menu="matMenu">
+  <button mat-menu-item>ITEM 1</button>
+  <button mat-menu-item>ITEM 2</button>
+</mat-menu>

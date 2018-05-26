@@ -1,0 +1,29 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Student 1",
+      "enrollmentDate": "01-05-2018"
+    },
+    {
+      "id": 2,
+      "name": "Student 2",
+      "enrollmentDate": "01-05-2018"
+    },
+    {
+      "id": 3,
+      "name": "Student 3",
+      "enrollmentDate": "01-05-2018"
+    },
+    {
+      "id": 4,
+      "name": "Student 4",
+      "enrollmentDate": "01-05-2018"
+    },
+    {
+      "id": 5,
+      "name": "Student 5",
+      "enrollmentDate": "01-05-2018"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+<mat-toolbar>
+  Class Details
+</mat-toolbar>
+
+<div class="mat-elevation-z8">
+  <mat-table #classesTable [dataSource]="classesData">
+
+    <mat-header-row *matHeaderRowDef="headerColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: headerColumns;"></mat-row>
+
+    <ng-container matColumnDef="class">
+      <mat-header-cell *matHeaderCellDef> Class Name </mat-header-cell>
+      <mat-cell *matCellDef="let class"> {{class.className}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="classTeacher">
+      <mat-header-cell *matHeaderCellDef> Class Teacher </mat-header-cell>
+      <mat-cell *matCellDef="let class"> {{class.classTeacher}} </mat-cell>
+    </ng-container>
+
+  </mat-table>
+</div>
